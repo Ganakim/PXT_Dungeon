@@ -3,7 +3,7 @@
         "namespace": "myAnimations",
         "id": "anim1",
         "mimeType": "application/mkcd-animation",
-        "data": "NjQwMDEwMDAxMDAwMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwZjA0ZmY0MGYwMDAwOTAwMDVmNTQ0NWY1MDAwMDE5ZjkzZTMzMzNlMzBmMDA5MGJmMzMzMzMzMzNmYjAwMDAzZjMzMzMzMzMzZjMwMGYwM2IzMzMzMzMzM2IzMGZmMGJiMzMzMzMzMzNiYjBmZjBiYmJiYmJiYmJiYmIwZmNmYmJiYmJiYmJiYmJiZmZiZmJiYmJiYmJiYmJjYjBmZmZiYmJiYmJiYmJiZmMwMGYwY2NmY2ZmZmZmZmNlMDAwMGYwYmJiZGRkNGVlNDAwMDBmMDFmZDFkMWVlMGYwMDAwMDBmMGJiZmYwZjAwMDA=",
+        "data": "NjQwMDEwMDAxMDAwMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwZjA0M2Y0MGYwMDAwOTAwMDVmNTQ0NWY1MDAwMDE5ZjkzZTMzMzNlMzBmMDA5MGJmMzMzMzMzMzNmYjAwMDAzZjMzMzMzMzMzZjMwMGYwM2IzMzMzMzMzM2IzMGZmMGJiMzMzMzMzMzNiYjBmZjBiYmJiYmJiYmJiYmIwZmNmYmJiYmJiYmJiYmJiZmZiZmJiYmJiYmJiYmJjYjBmZmZiYmJiYmJiYmJiZmMwMGYwY2NmY2ZmZmZmZmNlMDAwMGYwYmJiZGRkNGVlNDAwMDBmMDFmZDFkMWVlMGYwMDAwMDBmMGJiZmYwZjAwMDA=",
         "displayName": "Test"
     },
     "*": {

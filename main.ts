@@ -47,7 +47,8 @@ function Move (sprite: Sprite, x: number, y: number) {
     }
 }
 let animations: Image[][][] = []
-animations = [[
+animations = [
+[
 [
 img`
     . . . f 4 4 f f f f . . . . . . 
@@ -344,7 +345,8 @@ img`
     . . . . . f f b b f f . . . . . 
     `
 ]
-], [
+],
+[
 [
 img`
     . . . . . . . . . . . . . . . . 
@@ -641,7 +643,8 @@ img`
     . . . . . f f b b f f . . . . . 
     `
 ]
-], [
+],
+[
 [img`
     . . . f 4 4 f f f f . . . . . . 
     . . f 4 5 5 4 5 f b f f . . . . 
@@ -850,7 +853,9 @@ img`
     . . . f f 1 1 d 1 d 1 f f . . . 
     . . . . . f b b f f f . . . . . 
     `]
-]]
+],
+[assets.animation`Test`]
+]
 scene.setBackgroundColor(7)
 tiles.setCurrentTilemap(tilemap`level2`)
 let princess = sprites.create(img`

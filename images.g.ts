@@ -13,7 +13,7 @@ namespace myImages {
             case "Test":
             case "anim1":return [img`
 . . . . . . . . . . . . . . . . 
-. . . . . f f 4 4 f f . . . . . 
+. . . . . f 3 4 4 f f . . . . . 
 . 9 . . f 5 4 5 5 4 5 f . . . . 
 9 1 9 f e 3 3 3 3 3 3 e f . . . 
 . 9 f b 3 3 3 3 3 3 3 3 b f . . 
