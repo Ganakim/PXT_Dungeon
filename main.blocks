@@ -18,7 +18,7 @@
             <field name="NUM">0</field>
           </shadow>
           <block type="lists_create_with" id="+#gd:[Qn2zkC/;84Ij/k" inline="false">
-            <mutation items="4" horizontalafter="3"></mutation>
+            <mutation items="3" horizontalafter="3"></mutation>
             <value name="ADD0"> <!-- idle -->
               <block type="lists_create_with" id="Ca*LfOHVaf,Im/.OY[@U" inline="false">
                 <mutation items="4" horizontalafter="3"></mutation>
@@ -1082,17 +1082,6 @@
                           `</field><data>{"commentRefs":[],"fieldData":{"img":"cy@q#o9XBnIa2Ahh2K$q"}}</data>
                       </block>
                     </value> -->
-                  </block>
-                </value>
-              </block>
-            </value>
-            <value name="ADD3">
-              <block type="lists_create_with" id="b/G-+[kvpM(oV,RL/(zf">
-                <mutation items="1" horizontalafter="3"></mutation>
-                <value name="ADD0">
-                  <block type="animation_editor" id="JNCcVB_LSn`:R];][$CQ">
-                    <field name="frames">assets.animation`Test`</field>
-                    <data>{"commentRefs":[],"fieldData":{"frames":"myAnimations.anim1"}}</data>
                   </block>
                 </value>
               </block>
