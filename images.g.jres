@@ -3,8 +3,85 @@
         "namespace": "myAnimations",
         "id": "anim1",
         "mimeType": "application/mkcd-animation",
-        "data": "NjQwMDEwMDAxMDAwMDEwMDAwMDAwMDAwMDAwMDAwMDAwMDAwZjA0M2Y0MGYwMDAwOTAwMDVmNTQ0NWY1MDAwMDE5ZjkzZTMzMzNlMzBmMDA5MGJmMzMzMzMzMzNmYjAwMDAzZjMzMzMzMzMzZjMwMGYwM2IzMzMzMzMzM2IzMGZmMGJiMzMzMzMzMzNiYjBmZjBiYmJiYmJiYmJiYmIwZmNmYmJiYmJiYmJiYmJiZmZiZmJiYmJiYmJiYmJjYjBmZmZiYmJiYmJiYmJiZmMwMGYwY2NmY2ZmZmZmZmNlMDAwMGYwYmJiZGRkNGVlNDAwMDBmMDFmZDFkMWVlMGYwMDAwMDBmMGJiZmYwZjAwMDA=",
-        "displayName": "Test"
+        "data": "",
+        "displayName": "idleLeft"
+    },
+    "anim2": {
+        "namespace": "myAnimations",
+        "id": "anim2",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "idleUp"
+    },
+    "anim3": {
+        "namespace": "myAnimations",
+        "id": "anim3",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "idleRight"
+    },
+    "anim4": {
+        "namespace": "myAnimations",
+        "id": "anim4",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "idleDown"
+    },
+    "anim5": {
+        "namespace": "myAnimations",
+        "id": "anim5",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "walkLeft"
+    },
+    "anim6": {
+        "namespace": "myAnimations",
+        "id": "anim6",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "walkUp"
+    },
+    "anim7": {
+        "namespace": "myAnimations",
+        "id": "anim7",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "walkRight"
+    },
+    "anim8": {
+        "namespace": "myAnimations",
+        "id": "anim8",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "walkDown"
+    },
+    "anim9": {
+        "namespace": "myAnimations",
+        "id": "anim9",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "attackLeft"
+    },
+    "anim10": {
+        "namespace": "myAnimations",
+        "id": "anim10",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "attackUp"
+    },
+    "anim11": {
+        "namespace": "myAnimations",
+        "id": "anim11",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "attackRight"
+    },
+    "anim12": {
+        "namespace": "myAnimations",
+        "id": "anim12",
+        "mimeType": "application/mkcd-animation",
+        "data": "",
+        "displayName": "attackDown"
     },
     "*": {
         "mimeType": "image/x-mkcd-f4",
