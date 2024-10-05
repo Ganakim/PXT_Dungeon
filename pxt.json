@@ -1,10 +1,16 @@
 {
-    "name": "Zelda-Like Tue. 5:00 #2",
+    "name": "Personal Shattered",
     "description": "",
     "dependencies": {
         "device": "*",
         "arcade-sprite-data": "github:microsoft/arcade-sprite-data#v0.2.1",
-        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0"
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "multiplayer": "*",
+        "RuntimeVars": "github:ganakim/pxt_runtimevars#dc831fddebfb8cd306eca4e3cc865498dad26648",
+        "arcade-tilemap-a-star": "github:jwunderl/arcade-tilemap-a-star#v0.4.0",
+        "pxt-lantern": "github:felixtsu/pxt-lantern#v0.2.1",
+        "tileData": "github:neintoes/arcade-tile-data#2b02eb000bcc65dea0dc45a0fa8e4e47165643c1",
+        "FastRandomBlocks": "github:UnsignedArduino/Fast-Random-Blocks#8c985a77e5c4278e43a7bc375db095c67afb58ed"
     },
     "files": [
         "main.blocks",
