@@ -49,9 +49,9 @@ function generateRoom (dWidth: number, dHeight: number) {
             sprites.destroy(worker)
         }
     }
-    for (let index = 0; index < worker.sy; index++) {
-        for (let index = 0; index < worker.sx; index++) {
-            tiles.setTileAt(tiles.getTileLocation(0, 0), assets.tile`transparency16`)
+    for (let y = 0; y < worker.sy; y++) {
+        for (let x = 0; x < worker.sx; x++) {
+            
         }
     }
 }
@@ -79,22 +79,7 @@ mp.onControllerEvent(ControllerEvent.Connected, function (p) {
 function attack (playerId: number, attack_animation: any[]) {
     if (currentAnimation(playerId) == 2 && mp.getPlayerState(mp.getPlayerByIndex(playerId), MultiplayerState.moving) == 0) {
         attack_effect = sprites.create(img`
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
-            . . . . . . . . . . . . . . . . 
+            f 
             `, SpriteKind.Player_Attack)
         attack_effect.setPosition(mp.getPlayerSprite(mp.getPlayerByIndex(playerId)).x, mp.getPlayerSprite(mp.getPlayerByIndex(playerId)).y)
         attack_effect.x += mp.getPlayerState(mp.getPlayerByIndex(playerId), MultiplayerState.x) * 16
@@ -168,7 +153,7 @@ function snapToGrid (sprite: Sprite) {
 }
 function generateDungeon (seed: number, width: number, height: number, density: number) {
     rng = Random.createRNG(seed)
-    tiles.setCurrentTilemap(tilemap`level12`)
+    tiles.setCurrentTilemap(tilemap`terrain`)
     for (let index = 0; index < density; index++) {
         generateRoom(width, height)
     }
@@ -226,7 +211,7 @@ forever(function () {
             . . . . . . . . . . . . . 9 . . 
             . . . . . . . . . . . . 9 1 9 . 
             . . . . . . . . . . . . . 9 . . 
-            `,img`
+            `, img`
             . . . . . . . . . . . . . . . . 
             . . . . . . 9 . . . . . . . . . 
             . . . . . 9 1 9 . . . . . . . . 
@@ -243,7 +228,7 @@ forever(function () {
             . . . . . . . . 9 . . . . . . . 
             . . . . . . . 9 1 9 . . . . . . 
             . . . . . . . . 9 . . . . . . . 
-            `,img`
+            `, img`
             . . . . . . . . . 9 . . . . . . 
             . . . . . . . . 9 1 9 . . . . . 
             . . . . . . . . . 9 . . . . . . 
